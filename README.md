@@ -54,3 +54,15 @@ sudo systemctl start tomcat
 Enable Tomcat to start automatically on system boot:
 bash
 sudo systemctl enable tomcat
+
+
+
+
+
+///
+Okay, let's install the required packages first before proceeding with MySQL installation.
+Install the required packages:
+bash
+sudo apt install ./libaio1_0.3.113-4_amd64.deb ./libtinfo5_6.4-2_amd64.deb ./libncurses5_6.4-2_amd64.deb
+
+This will install the libaio1, libtinfo5, and libncurses5 packages from the provided .deb files.
